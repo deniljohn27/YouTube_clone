@@ -10,8 +10,11 @@ body{
     cursor:pointer
 }
 /* ///////////////////////////nav////////// */
-
-
+.nav_display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav_display_mid{
     display: flex;
     justify-content: space-around;
@@ -20,7 +23,6 @@ body{
 .nav_bar{
     /* border:2px black solid; */
 
-    
     padding:1% 0;
     height:50px;
     
